@@ -168,3 +168,4 @@ resource "aws_route_table_association" "public-1b" {
   route_table_id = aws_route_table.public.id
 }
 
+
