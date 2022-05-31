@@ -11,3 +11,6 @@ output "public_ip" {
   value       = aws_eip.nat.public_ip
 }
 
+output "default_security_group_id" {
+  value       = aws_vpc.vs_main.default_security_group_id
+}
